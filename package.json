@@ -6,7 +6,7 @@
 	"version": "0.0.1",
 	"publisher": "ktriek",
 	"license":"See License section in README.md",
-	"homepage":"https://github.com/ktriek/ng-bootstrap-snippets/README.md",
+	"homepage":"https://github.com/ktriek/ng-bootstrap-snippets/blob/master/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/ktriek/ng-bootstrap-snippets.git"
