@@ -1,9 +1,7 @@
 {
   "NgBootstrap Accordion": {
     "prefix": "ngb-accordion",
-    "body": [
-      "<ngb-accordion #acc=\"ngbAccordion\" activeIds=\"ngb-panel-0\">\n\t<ngb-panel title=\"${1:Title1}\">\n\t\t<template ngbPanelContent>\n\t\t\t${2:Content1}\n\t\t</template>\n\t</ngb-panel>\n\t<ngb-panel title=\"${3:Title2}\">\n\t\t<template ngbPanelContent>\n\t\t\t${4:Content2}\n\t\t</template>\n\t</ngb-panel>\n</ngb-accordion>$5"
-    ],
+    "body": "<ngb-accordion #acc=\"ngbAccordion\" activeIds=\"ngb-panel-0\">\n\t<ngb-panel title=\"${1:Title1}\">\n\t\t<template ngbPanelContent>\n\t\t\t${2:Content1}\n\t\t</template>\n\t</ngb-panel>\n\t<ngb-panel title=\"${3:Title2}\">\n\t\t<template ngbPanelContent>\n\t\t\t${4:Content2}\n\t\t</template>\n\t</ngb-panel>\n</ngb-accordion>$5",
     "description": "NgBootstrap Accordion"
   },
   "NgBootstrap Alert": {
@@ -21,12 +19,12 @@
     "body": "<button type=\"button\" class=\"btn btn-outline-${1:default|primary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:$event})\">\n\t${4:Button}\n</button>$5",
     "description": "NgBootstrap Button Outline"
   },
-  "NgBootstrap Raidio buttons group": {
+  "NgBootstrap Radio buttons group": {
     "prefix": "ngb-radio-group",
     "body": "<div ngbRadioGroup name=\"${1:radioGroup1}\">\n\t<label class=\"btn btn-${2:default|primary|success|info|warning|danger}\">\n\t\t<input type=\"radio\" [(ngModel)]=\"${3:modal.first}\"> ${4:First}\n\t</label>\n\t<label class=\"btn btn-${5:default|primary|success|info|warning|danger}\">\n\t\t<input type=\"radio\" [(ngModel)]=\"${6:modal.second}\"> ${7:Second}\n\t</label>\n</div>$8",
     "description": "NgBootstrap Raidio buttons group"
   },
-  "NgBootstrap Raidio button": {
+  "NgBootstrap Radio button": {
     "prefix": "ngb-radio-btn",
     "body": "<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\">\n\t<input type=\"radio\" [(ngModel)]=\"${2:modal.first}\"> ${3:Label}\n</label>$4",
     "description": "NgBootstrap Raidio button"
