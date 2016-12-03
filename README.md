@@ -2,6 +2,8 @@
 
 A set of NgBootstrap (Angular 2 + Bootstrap 4) Snippets for Visual Studio Code.
 
+![Demo](images/demo.gif)
+
 ## Usage
 Type ngb to see the list of the available snippets, select a snippet then press `enter` and the snippet unfolds.
 
