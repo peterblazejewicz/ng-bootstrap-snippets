@@ -6,7 +6,7 @@
   },
   "NgBootstrap Alert": {
     "prefix": "ngb-alert",
-    "body": "<ngb-alert [type]=\"${1:default|primary|success|info|warning|danger}\" [dismissible]=\"${2:true}\">${3:Alert}</ngb-alert>$4",
+    "body": "<ngb-alert type=\"${1:primary|success|info|warning|danger}\" [dismissible]=\"${2:true}\">${3:Alert}</ngb-alert>$4",
     "description": "NgBootstrap Alert"
   },
   "NgBootstrap Button": {
